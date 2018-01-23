@@ -1,8 +1,8 @@
 {
-    "name": "gitbook-plugin-mathjax",
+    "name": "gitbook-plugin-mathjax-update-cdn",
     "description": "MathJAX integration into GitBook to display math and latex equations",
     "main": "index.js",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "engines": {
         "gitbook": ">=3.0.0"
     },
@@ -11,10 +11,10 @@
         "q": "^1.1.2",
         "crc": "^3.2.1"
     },
-    "homepage": "https://github.com/GitbookIO/plugin-mathjax",
+    "homepage": "https://github.com/yoyoyohamapi/plugin-mathjax",
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/plugin-mathjax.git"
+        "url": "https://github.com/yoyoyohamapi/plugin-mathjax.git"
     },
     "license": "Apache-2.0",
     "bugs": {
@@ -31,7 +31,7 @@
             "version": {
                 "type": "string",
                 "title": "Version of MathJAX to use for website rendering",
-                "default": "2.6-latest"
+                "default": "2.7.1"
             }
         }
     }
