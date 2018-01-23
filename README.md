@@ -9,7 +9,7 @@ Add it to your `book.json` configuration:
 
 ```
 {
-    "plugins": ["mathjax"]
+    "plugins": ["mathjax-update-cdn"]
 }
 ```
 
@@ -38,7 +38,7 @@ You can force the use of svg pre-processed by adding to your book.json:
 ```
 {
     "pluginsConfig": {
-        "mathjax":{
+        "mathjax-update-cdn":{
             "forceSVG": true
         }
     }
